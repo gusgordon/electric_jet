@@ -1,0 +1,19 @@
+611: Another peculiarity of the subsonic inviscid flow is the
+complete lack of resistance associated with the thickness of
+the bodies or wings. At supersonic speeds, however, such a
+component of drag does arise and this drag appears in the
+energy required for the continual extension of the wave
+system.
+???: At subsonic speeds the pressure drag arising from the thickness
+of the body or wings is negligible so long as the shapes are
+sufficiently well streamlined to avoid flow separation
+ ---> There is no thickness drag at subsonic speeds
+
+605: In Whitcomb's experiments it was demonstrated
+further that the drag associated with the thicknesc of a
+wing can be effectively suppressed by removing an
+appropriate "area distribution" from the fuselage
+ ---> The sears-haack body alone is a sufficient estimation of the wave (thickness) drag
+ 
+ 
+ m is the slope of the ellipse: https://www.desmos.com/calculator/0zkj4oi0iw

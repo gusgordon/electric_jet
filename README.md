@@ -46,8 +46,8 @@ Range (km) vs. battery specific energy (Wh/kg) is plotted for subsonic (250 m/s)
 
 ![results_plot](results.png "Results").
 
-As expected, we find lower airspeeds and higher aspect ratios lead to better results. With current batteries, which are around 300 Wh/kg, we can achieve around a 1400 km range under our assumptions with a low airspeed, high aspect ratio aircraft.
-
-The lower range of the 700 m/s aircraft with an aspect ratio of 12 shows that increasing aspect ratio only helps up to a point in supersonic flight. [This answer](https://aviation.stackexchange.com/questions/36761/why-does-the-aspect-ratio-of-a-wing-become-less-important-at-supersonic-speeds) gives an overview of why that is the case. In supersonic flight, the large aspect ratio wing has a higher range for lower battery specific energies because in this case the aircraft spends less time in cruise, and more time in subsonic ascent/descent where having a high aspect ratio wing is helpful.
+With current batteries, which are around 300 Wh/kg, we can achieve around a 1400 km range with a low airspeed, high aspect ratio aircraft under our assumptions. As expected, we find lower airspeeds and higher aspect ratios lead to better results.
 
 It is clear that subsonic (250 m/s) electric aircraft will be viable before supersonic (700 m/s) electric aircraft. Supersonic VTOL electric aircraft may become viable somewhere around a battery specific energy of 1500 Wh/kg.
+
+The lower range of the 700 m/s aircraft with an aspect ratio of 12 shows that increasing aspect ratio only helps up to a point in supersonic flight. [This answer](https://aviation.stackexchange.com/questions/36761/why-does-the-aspect-ratio-of-a-wing-become-less-important-at-supersonic-speeds) gives an overview of why that is the case. In supersonic flight, the large aspect ratio wing has a higher range for lower battery specific energies because the aircraft spends proportionally more time in subsonic ascent/descent where having a higher aspect ratio wing is helpful.

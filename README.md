@@ -1,6 +1,6 @@
 # Exploring an electric supersonic VTOL jet
 
-The goal of this project is to explore a supersonic VTOL electric jet. By building a drag model and using different assumptions, we can explore what such an airplane might look like, and analyze what its range would be given different batteries and wing layouts. See [Elon Musk's thoughts](https://www.youtube.com/watch?v=RyS92KPQnjk) on electric jets.
+The goal of this project is to explore an electric supersonic VTOL jet. By building a drag model and using different assumptions, we can explore what such an airplane might look like, and analyze what its range would be given different batteries and wing layouts. See [Elon Musk's thoughts](https://www.youtube.com/watch?v=RyS92KPQnjk) on electric jets.
 
 ### Aircraft layout
 

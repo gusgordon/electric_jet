@@ -1,25 +1,23 @@
-# Exploring an electric supersonic VTOL jet
+# Electric supersonic VTOL jet exploration
 
-The goal of this project is to explore an electric supersonic VTOL jet. By building a drag model and using different assumptions, we can explore what such an airplane might look like, and analyze what its range would be given different batteries and wing layouts. See [Elon Musk's thoughts](https://www.youtube.com/watch?v=RyS92KPQnjk) on electric jets.
+The goal of this notebook is to explore a supersonic VTOL electric jet. By building a drag model and using different assumptions, we can explore what such an airplane might look like, and analyze what its range would be given different batteries and wing layouts. See [Elon Musk's thoughts](https://www.youtube.com/watch?v=RyS92KPQnjk) on electric jets.
 
 ### Aircraft layout
 
-The aircraft is assumed to be a [blended wing body](https://en.wikipedia.org/wiki/Blended_wing_body). Using a blended wing body enables a higher lift-to-drag ratio and provides space to embed many fans in the wing that can be used for VTOL. A tail is not needed; the combination of swept wing tips and gimbaled engines would provide adequate control. The fuselage length is set equal to the "total" chord of the wing (from root leading edge to wingtip trailing edge).
-
+The aircraft could either be a conventional design (with a separate fuselage and wings) or a [blended wing body](https://en.wikipedia.org/wiki/Blended_wing_body). There would be many fans embedded in the wing that can be used for VTOL. A tail is not needed; the combination of swept wing tips and distributed propulsion would provide adequate control. The fuselage length is set equal to the "total" chord of the wing (from root leading edge to wingtip trailing edge).
 
 ### VTOL
 
 Many small motors and fans could be used to provide improved reliability ([distributed propulsion](https://en.wikipedia.org/wiki/Distributed_propulsion)). Distributed electric propulsion enables VTOL, which eliminates the need for extremely large airport runways.
 
-During takeoff and landing, electric motors can run for short periods of time at a higher than nominal power. This would reduce the mass requirement of the motors required for VTOL. The primary engines, which can gimbal, would also contribute vertical lift.
+During takeoff and landing, electric motors can run for short periods of time at a higher than nominal power. This would reduce the mass requirement of the motors required for VTOL. The primary engines, if they were able to gimbal, would also contribute vertical lift.
 
 ### Flight engines
 
-The propulsion is assumed to be, effectively, electric compressors connected to a nozzle. Air is decelerated in an inlet which raises the pressure. A multi-stage axial compressor further raises the pressure, and the air is accelerated out of a nozzle (converging nozzle for subsonic flow, or converging-diverging nozzle for supersonic flow).
+The propulsion is assumed to be, effectively, electric compressors connected to a nozzle. Air is decelerated in an inlet which raises the pressure. A multi-stage axial compressor further raises the pressure, and the air is accelerated out of a nozzle (converging nozzle for subsonic flow, or converging-diverging nozzle for supersonic flow). The engines would be positioned along the trailing edge of the wings.
 
 Like the VTOL system, many smaller engines can be used to provide improved reliability. [Boundary layer ingestion](https://en.wikipedia.org/wiki/Boundary_layer#Boundary_layer_ingestion) may be feasible if many smaller engines (with smaller compressor diameters) are embedded in the trailing edge of the aircraft.
 
-The engines should have the ability to be individually gimbaled (or gimbaled in groups), which along a swept trailing edge, would provide pitch control and trim. This eliminates the need for a tail.
 
 ## Model
 

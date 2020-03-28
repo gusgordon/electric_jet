@@ -4,7 +4,7 @@ The goal of this notebook is to explore a supersonic VTOL electric jet. By build
 
 ### Aircraft layout
 
-The aircraft could either be a conventional design (with a separate fuselage and wings) or a [blended wing body](https://en.wikipedia.org/wiki/Blended_wing_body). There would be many fans embedded in the wing that can be used for VTOL. A tail is not needed; the combination of swept wing tips and distributed propulsion would provide adequate control. The fuselage length is set equal to the "total" chord of the wing (from root leading edge to wingtip trailing edge).
+The aircraft could either be a conventional design (with a separate fuselage and wing) or a [blended wing body](https://en.wikipedia.org/wiki/Blended_wing_body). There would be many fans embedded in the wing that can be used for VTOL. A tail is not needed; the combination of swept wing tips and distributed propulsion would provide adequate control. The fuselage length is set equal to the "total" chord of the wing (from root leading edge to wingtip trailing edge).
 
 ### VTOL
 
@@ -14,7 +14,7 @@ During takeoff and landing, electric motors can run for short periods of time at
 
 ### Flight engines
 
-The propulsion is assumed to be, effectively, electric compressors connected to a nozzle. Air is decelerated in an inlet which raises the pressure. A multi-stage axial compressor further raises the pressure, and the air is accelerated out of a nozzle (converging nozzle for subsonic flow, or converging-diverging nozzle for supersonic flow). The engines would be positioned along the trailing edge of the wings.
+The propulsion is assumed to be, effectively, electric compressors connected to a nozzle. Air is decelerated in an inlet which raises the pressure. A multi-stage axial compressor further raises the pressure, and the air is accelerated out of a nozzle (converging nozzle for subsonic flow, or converging-diverging nozzle for supersonic flow). The engines would be positioned along the trailing edge of the wing.
 
 Like the VTOL system, many smaller engines can be used to provide improved reliability. [Boundary layer ingestion](https://en.wikipedia.org/wiki/Boundary_layer#Boundary_layer_ingestion) may be feasible if many smaller engines (with smaller compressor diameters) are embedded in the trailing edge of the aircraft.
 

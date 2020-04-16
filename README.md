@@ -42,7 +42,7 @@ After optimizing different aircraft, we regress the range versus battery specifi
 # Results
 Range (km) vs. battery specific energy (Wh/kg) is plotted for subsonic (250 m/s) and supersonic (700 m/s) airspeeds and various aspect ratios. The complete model and calculations [can be found in the notebook](https://github.com/gusgordon/electric_jet/blob/master/plane.ipynb).
 
-![results_plot](results.png "Results").
+![results_plot](results.png "Results")
 
 With current batteries, which are around 300 Wh/kg, we can achieve around a 1400 km range with a low airspeed, high aspect ratio aircraft under our assumptions. As expected, we find lower airspeeds and higher aspect ratios lead to better results.
 
